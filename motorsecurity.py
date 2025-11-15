@@ -1,4 +1,4 @@
-# motorsecurity_qt_edge.py  — Sistema Avançado de Segurança Veicular
+# motorsecurity.py  — Sistema Avançado de Segurança Veicular
 import sys, time, math, threading, platform, queue, os, asyncio, tempfile
 from collections import deque
 
@@ -632,4 +632,5 @@ def main():
     sys.exit(app.exec_())
 
 if __name__ == "__main__":
+
     main()
